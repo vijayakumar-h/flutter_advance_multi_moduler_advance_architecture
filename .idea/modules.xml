@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml" filepath="$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml" />
+<module fileurl="file://$PROJECT_DIR$/features/settings/app_settings/melos_app_settings.iml" filepath="$PROJECT_DIR$/features/settings/app_settings/melos_app_settings.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/data/melos_data.iml" filepath="$PROJECT_DIR$/core/data/melos_data.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/datastore/melos_datastore.iml" filepath="$PROJECT_DIR$/core/datastore/melos_datastore.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/domain/melos_domain.iml" filepath="$PROJECT_DIR$/core/domain/melos_domain.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/extensions/melos_extensions.iml" filepath="$PROJECT_DIR$/core/extensions/melos_extensions.iml"/>
+<module fileurl="file://$PROJECT_DIR$/features/auth/login/melos_login.iml" filepath="$PROJECT_DIR$/features/auth/login/melos_login.iml"/>
+<module fileurl="file://$PROJECT_DIR$/features/home/main/melos_main.iml" filepath="$PROJECT_DIR$/features/home/main/melos_main.iml"/>
+<module fileurl="file://$PROJECT_DIR$/features/movies/melos_movies.iml" filepath="$PROJECT_DIR$/features/movies/melos_movies.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/navigator/melos_navigator.iml" filepath="$PROJECT_DIR$/core/navigator/melos_navigator.iml"/>
+<module fileurl="file://$PROJECT_DIR$/core/presentation/melos_presentation.iml" filepath="$PROJECT_DIR$/core/presentation/melos_presentation.iml"/>
+<module fileurl="file://$PROJECT_DIR$/features/settings/profile/melos_profile.iml" filepath="$PROJECT_DIR$/features/settings/profile/melos_profile.iml"/>
+<module fileurl="file://$PROJECT_DIR$/features/auth/register/melos_register.iml" filepath="$PROJECT_DIR$/features/auth/register/melos_register.iml"/>
+<module fileurl="file://$PROJECT_DIR$/melos_flutter_advance_multi_moduler_advance_architecture.iml" filepath="$PROJECT_DIR$/melos_flutter_advance_multi_moduler_advance_architecture.iml"/>
+<module fileurl="file://$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml" filepath="$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml"/>
     </modules>
   </component>
 </project>
