@@ -12,11 +12,16 @@ dev_dependencies:
 melos:
   command:
     bootstrap:
-      # Define common dependencies to be updated in all packages
       dependencies:
         meta: ^1.11.0
-
-      # Define common dev_dependencies to be updated in all packages
       dev_dependencies:
         build_runner: ^2.4.8
         flutter_lints: ^6.0.0
+
+  scripts:
+#    clean: melos clean
+    cleanAndBootstrap: melos clean && melos bootstrap
+    test:
+      run: flutter test
+    update: flutter pub outdated
+    upgrade: flutter pub upgrade --major-versions
