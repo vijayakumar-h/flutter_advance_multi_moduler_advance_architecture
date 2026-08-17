@@ -27,3 +27,8 @@ A New Flutter Project.
 5- --> dart pub upgrade --major-versions
 6- --> open ~/.zshrc
 7- --> export PATH="$JAVA_HOME/bin:$PATH:$HOME/.pub-cache/bin"
+
+===============================================================
+to generate injection.config.dart
+1- dart run build_runner watch --delete-conflicting-outputs
+2. build->flutter->build-apk (optional if the file is not auto generate after running the command line above)

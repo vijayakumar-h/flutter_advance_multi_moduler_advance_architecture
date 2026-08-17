@@ -1,6 +1,12 @@
+import 'package:app_settings/provider/app_settings_provider.dart';
+import 'package:datastore/provider/session_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_advance_multi_moduler_advance_architecture/di/injection.dart';
+import 'package:injectable/injectable.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  configureDependencies(Environment.dev);
   runApp(const MyApp());
 }
 
@@ -69,6 +75,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final appSettingProvider = getIt<AppSettingProvider>();
+    final sessionProvider = getIt<SessionProvider>();
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -104,11 +112,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('You have pushed the button this many times:'),
+             Text('App Language: ${appSettingProvider.getAppLanguage()}'),
             Text(
-              '$_counter',
+              'App Theme: ${appSettingProvider.getThemeType()}',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text('Session client ID: ${sessionProvider.getClientId()}'),
           ],
         ),
       ),
