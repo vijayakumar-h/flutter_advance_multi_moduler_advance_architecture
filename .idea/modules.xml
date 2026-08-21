@@ -16,6 +16,7 @@
 <module fileurl="file://$PROJECT_DIR$/features/auth/register/melos_register.iml" filepath="$PROJECT_DIR$/features/auth/register/melos_register.iml"/>
 <module fileurl="file://$PROJECT_DIR$/melos_flutter_advance_multi_moduler_advance_architecture.iml" filepath="$PROJECT_DIR$/melos_flutter_advance_multi_moduler_advance_architecture.iml"/>
 <module fileurl="file://$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml" filepath="$PROJECT_DIR$/.idea/flutter_advance_multi_moduler_advance_architecture.iml"/>
+<module fileurl="file://$PROJECT_DIR$/android/flutter_advance_multi_moduler_advance_architecture_android.iml" filepath="$PROJECT_DIR$/android/flutter_advance_multi_moduler_advance_architecture_android.iml"/>
     </modules>
   </component>
 </project>
