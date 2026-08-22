@@ -21,6 +21,8 @@ dependencies:
     path: ../../../core/data
   datastore:
     path: ../../../core/datastore
+  extensions:
+    path: ../../../core/extensions
 
 dev_dependencies:
   flutter_test:
