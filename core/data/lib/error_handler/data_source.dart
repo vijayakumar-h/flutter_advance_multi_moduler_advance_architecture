@@ -1,0 +1,15 @@
+enum DataSource {
+  success,
+  noContent,
+  badRequest,
+  forbidden,
+  unauthorised,
+  internalServerError,
+  connectionTimeOut,
+  cancelled,
+  receiveTimeOut,
+  sentTimeOut,
+  cacheError,
+  noInternetConnection,
+  defaultError,
+}

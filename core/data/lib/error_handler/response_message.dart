@@ -1,0 +1,19 @@
+import 'package:data/error_handler/error_messages.dart';
+
+class ResponseMessage {
+  static const String success = AppStrings.success;
+  static const String noContent = AppStrings.noContent;
+  static const String badRequest = AppStrings.badRequest;
+  static const String forbidden = AppStrings.forbidden;
+  static const String unauthorised = AppStrings.unauthorised;
+  static const String internalServerError = AppStrings.internalServerError;
+
+  // local error from app
+  static const String connectionTimeOut = AppStrings.connectionTimeOut;
+  static const String cancelled = AppStrings.cancelled;
+  static const String receiveTimeOut = AppStrings.receiveTimeOut;
+  static const String sentTimeOut = AppStrings.sentTimeOut;
+  static const String cacheError = AppStrings.cacheError;
+  static const String noInternetConnection = AppStrings.noInternetConnection;
+  static const String defaultError = AppStrings.defaultError;
+}
